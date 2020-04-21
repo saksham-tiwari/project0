@@ -68,6 +68,13 @@ p
 	margin-top: 50px;
 	margin-left: 30%;
 	margin-bottom: 20px;
+	height: 70%; 
+	width: 40%;
+	@media (max-width: 599px)
+	{
+		height:30%;
+		width:30%;
+	}
 }
 .col-4
 {
