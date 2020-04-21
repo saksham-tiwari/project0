@@ -1,105 +1,55 @@
-$x: #4169e1;
-%format
+#nav
 {
-	width:50%;
-	margin-left: 25%;
-	margin-right: 25%;	
-	margin-bottom: 15px;
+	background-color: #4169e1;
+	height:7%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
-#mobile
+%hover
 {
-	@media (min-width: 600px)
+	a:hover
 	{
-		display: none;
-	}
+		font-size:20px;
+		color: red;
+	}	
 }
-#info
+h1
 {
-	@extend %format;
-}
-#linkhead
-{
-	font-size: 30px;
-	background-color: #DA2647; 
+	background-color:grey;
 	text-align: center;
-	@extend %format;
+	font-family: imperial;
+	font-weight: bold;
 }
-ol
+#main
 {
-	font-size: 26px;
-	text-align: center;
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
-	background-color: $x;
-	font-family:cursive;
-
-}
-p
-{
-	padding: 10px;
-	padding-left: 60px;
-	margin-left: 200px;
-	font-size: 20px;
-	color: white;
-	background-color: $x;
-	width: 42%;
-	height: 50px;
-}
-.container
-{
-	background-color: $x;
-	height: 100px;
-	padding: 35px;
-}
-#sss
-{
-		height: 150px;
-		padding:18px;
-		@media (min-width: 600px)
-		{
-			padding-top: 60px;
-		}
+	border: 5px dashed grey;
+	padding: 15px;
+	margin-top: 30px; 
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	text-align: justify;
+	font-size:22px;
+	font-family: sans-serif;
+	@extend %hover;
 }
 
-#Profile-Pic
+#Links
 {
-	border:3px dashed black;
-	margin-top: 50px;
-	margin-left: 30%;
-	margin-bottom: 20px;
-}
-.col-4
-{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 22px;
+	padding-left: 10%;
+	color : white;
+	background-color:black;
+	width: auto;
+	height: auto;
 	a
 	{
-		display: inline-block;
-		font-size: 18px;
 		color: red;
-		font-weight: bold;
-		font-style: italic;
-		font-family: monospace;
+		
 	}
-	a:hover
-		{
-			color:white;
-			font-size:20px;
-		}
+	@extend %hover;
 	
-}
-#top
-{
-	border: 2px dashed black;
-}
-strong
-{
-	font-size: 25px;
-}
-#para
-{
-	@extend %format;
-	background-color:#fadfad;
-	font-size: 20px;
-	font-family: fantasy;
-	text-align:justify;
 }
