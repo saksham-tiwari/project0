@@ -8,27 +8,6 @@
   #mobile {
     display: none; } }
 
-h1, h2 {
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  color: white;
-  background-color: #44D7A8;
-  font-weight: bolder;
-  font-family: inherit; }
-
-h2 {
-  margin-left: 150px;
-  margin-right: 150px;
-  text-decoration: underline;
-  font-family: sans-serif; }
-
-h1 {
-  height: 100px;
-  font-size: 45px;
-  font-style: italic;
-  text-decoration: double underline; }
-
 #linkhead {
   font-size: 30px;
   background-color: #DA2647;
@@ -40,7 +19,7 @@ ol {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  background-color: #87FF2A;
+  background-color: #4169e1;
   font-family: cursive; }
 
 p {
@@ -49,12 +28,12 @@ p {
   margin-left: 200px;
   font-size: 20px;
   color: white;
-  background-color: #44D7A8;
+  background-color: #4169e1;
   width: 42%;
   height: 50px; }
 
 .container {
-  background-color: #B2F302;
+  background-color: #4169e1;
   height: 100px;
   padding: 35px; }
 
