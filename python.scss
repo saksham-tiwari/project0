@@ -1,0 +1,62 @@
+#mobile
+{
+	@media (min-width: 600px)
+	{
+		display: none;
+	}
+}
+#nav
+{
+	background-color: #4169e1;
+	height:7%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+%hover
+{
+	a:hover
+	{
+		font-size:20px;
+		color: red;
+	}	
+}
+h1
+{
+	background-color:grey;
+	text-align: center;
+	font-family: imperial;
+	font-weight: bold;
+}
+#main
+{
+	border: 5px dashed grey;
+	padding: 15px;
+	margin-top: 30px; 
+	width:75%;
+	margin-left:12.5%;
+	margin-right:12.5%;
+	text-align: justify;
+	font-size:22px;
+	font-family: sans-serif;
+	@extend %hover;
+}
+
+#Links
+{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 22px;
+	padding-left: 10%;
+	color : white;
+	background-color:black;
+	width: auto;
+	height: auto;
+	a
+	{
+		color: red;
+		
+	}
+	@extend %hover;
+	
+}
